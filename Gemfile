@@ -29,7 +29,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-gist", "~> 1.5.0"
   gem "jekyll-avatar", "~> 0.7.0"
-  gem "jekyll-admin", "~> 0.12.4"
+  gem "jekyll-admin", "~> 0.11.1"
   gem "jekyll-mentions", "~> 1.6.0"
 end
 
