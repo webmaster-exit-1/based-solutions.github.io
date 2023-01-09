@@ -9,6 +9,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.3.1"
 gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "webrick", "~> 1.7.0"
+gem "kramdown", "~> 2.3.1"
+gem "rouge", "~> 3.26.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
@@ -18,6 +21,16 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-include-cache", "~> 0.2.1"
+  gem "jekyll-remote-theme", "~> 0.4.3"
+  gem "jekyll-sitemap", "~> 1.5.0"
+  gem "jekyll-seo-tag", "~> 2.7.1"
+  gem "jekyll-redirect-from", "~> 0.16.0"
+  gem "jekyll-paginate", "~> 1.1.0"
+  gem "jekyll-gist", "~> 1.5.0"
+  gem "jekyll-avatar", "~> 0.7.0"
+  gem "jekyll-admin", "~> 0.12.4"
+  gem "jekyll-mentions", "~> 1.6.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
