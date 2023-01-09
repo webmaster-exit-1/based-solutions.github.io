@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache", "~> 0.2.1"
   gem "jekyll-remote-theme", "~> 0.4.3"
   gem "jekyll-sitemap", "~> 1.4.0"
-  gem "jekyll-seo-tag", "~> 2.7.1"
+  gem "jekyll-seo-tag", "~> 2.8.0"
   gem "jekyll-redirect-from", "~> 0.16.0"
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-gist", "~> 1.5.0"
