@@ -1,25 +1,26 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title:             Based Solutions
+email:             mrgofuckyourself@pm.me
+description:       Silent Observations and long nights coding
+author:            WebMaster Exit 1
+#url:               "localhost:4000"
+url:               "http://based-solutions.github.io/"
+baseurl:
 
-title: Based Solutions
-email: mrgofuckyourself@pm.me
+# Social Profiles
+#twitter_username:  SBootstrap
+github_username:   Webmaster-exit-1
+#facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          10
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+
+
 description: >- # this means to ignore newlines until "baseurl:"
   A website to display my repositories.
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -27,12 +28,10 @@ url: "https://based-solutions.github.io" # the base hostname & protocol for your
 github_username:  webmaster-exit-1
 
 # Build settings
-theme: minima
+theme: jekyll-theme-awesome
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-remote_theme: pages-themes/hacker@v0.2.0
 
 # Exclude from processing.
 # The following items will not be processed, by default.
